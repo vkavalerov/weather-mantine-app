@@ -9,9 +9,9 @@ I don't want to pay for organization, so, yeah
 
 Before merging PR you need to make sure that it fits next rules:
 
-It is updated from main branch
-It has at least 1 review that approves this PR
-All checks 'must' be successfull
+1. It is updated from main branch
+2. It has at least 1 review that approves this PR
+3. All checks 'must' be successfull
 
 ### weather-app setup and start
 
