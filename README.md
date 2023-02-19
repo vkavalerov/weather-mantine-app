@@ -1,5 +1,5 @@
 # weather-mantine-app
-Deployed by Vercel - https://weather-mantine-app.vercel.app/test
+Deployed by Vercel - https://weather-mantine-app.vercel.app
 
 ### weather-app setup and start
 
