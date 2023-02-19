@@ -1,13 +1,16 @@
 import { Text } from "@mantine/core";
 import { InferGetStaticPropsType } from "next";
 import { useRouter } from "next/router";
+import { useEffect } from "react";
 
 export default function Home({
   basePath,
 }: InferGetStaticPropsType<typeof getStaticProps>) {
   const router = useRouter();
   console.log("basePath: " + basePath);
-  router.push("/test");
+  useEffect(() => {
+    router.push("/test");
+  }, []);
   return (
     <Text size="xl" weight={700}>
       index page
