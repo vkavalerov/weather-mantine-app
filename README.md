@@ -1,6 +1,16 @@
 # weather-mantine-app
 Deployed by Vercel - https://weather-mantine-app.vercel.app
 
+### PR Merging Rules
+
+I don't want to pay for organization, so, yeah
+
+Before merging PR you need to make sure that it fits next rules:
+
+It is updated from main branch
+It has at least 1 review that approves this PR
+All checks 'must' be successfull
+
 ### weather-app setup and start
 
 1. For Setup your enviroment run `pnpm i` in `./weather-app` directory, to install `pnpm` see https://pnpm.io/installation
