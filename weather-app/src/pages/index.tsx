@@ -9,7 +9,7 @@ export default function Home({
   const router = useRouter();
   console.log("basePath: " + basePath);
   useEffect(() => {
-    router.push("/test");
+    router.push("/weather-page");
   }, []);
   return (
     <Text size="xl" weight={700}>
