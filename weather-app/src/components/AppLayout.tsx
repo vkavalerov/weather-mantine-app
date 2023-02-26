@@ -15,7 +15,7 @@ export default function AppLayout() {
       padding="md"
       navbar={
         <Navbar width={{ base: 300 }} p="xs">
-          <Text>Navbar text</Text>
+          <Text>Added locations:</Text>
         </Navbar>
       }
       header={
