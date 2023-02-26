@@ -1,4 +1,4 @@
-import { AppShell, Navbar, Header, Text } from "@mantine/core";
+import { AppShell, Navbar, Header, Text, Image, Center } from "@mantine/core";
 
 export default function AppLayout() {
   return (
@@ -11,7 +11,17 @@ export default function AppLayout() {
       }
       header={
         <Header height={60} p="xs">
-          <Text>Header text</Text>
+          <Center inline>
+            <Image
+              width={20}
+              height={20}
+              fit="contain"
+              src="https://cdn-icons-png.flaticon.com/512/2862/2862807.png"
+              alt="WeatherApp site logo"
+              withPlaceholder
+            />
+            <Text>Header text</Text>
+          </Center>
         </Header>
       }
       styles={(theme) => ({
