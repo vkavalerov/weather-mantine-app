@@ -4,11 +4,11 @@ export default function AppLayout() {
   return (
     <AppShell
       padding="md"
-      //   navbar={
-      //     <Navbar width={{ base: 300 }} p="xs">
-      //       <Text>Navbar text</Text>
-      //     </Navbar>
-      //   }
+      navbar={
+        <Navbar width={{ base: 300 }} p="xs">
+          <Text>Navbar text</Text>
+        </Navbar>
+      }
       header={
         <Header height={60} p="xs">
           <Text>Header text</Text>
