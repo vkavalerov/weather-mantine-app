@@ -1,4 +1,13 @@
-import { AppShell, Navbar, Header, Text, Image, Flex } from "@mantine/core";
+import {
+  AppShell,
+  Navbar,
+  Header,
+  Text,
+  Image,
+  Flex,
+  TextInput,
+  Space,
+} from "@mantine/core";
 
 export default function AppLayout() {
   return (
@@ -28,6 +37,23 @@ export default function AppLayout() {
               withPlaceholder
             />
             <Text>Weather App</Text>
+            <Space w={450} />
+            <Image
+              width={20}
+              height={20}
+              fit="contain"
+              src="https://cdn-icons-png.flaticon.com/512/54/54481.png"
+              alt="Magnifying glass search icon"
+              withPlaceholder
+            />
+            <TextInput
+              placeholder="Enter location"
+              radius="md"
+              size="md"
+              sx={{
+                width: 500,
+              }}
+            />
           </Flex>
         </Header>
       }
